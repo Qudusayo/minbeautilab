@@ -2,7 +2,6 @@ const express = require("express");
 const exphbs = require("express-handlebars");
 const minifytext = require("./workers/minifiertext");
 const beautifytext = require("./workers/beautifiertext");
-const photoCopy = require("./workers/photoCopy");
 const request = require("request");
 const path = require("path");
 
